@@ -5,7 +5,7 @@ html, body {
   padding: 0;
   background: url('fro') repeat;
   background-size: cover; /* Cover the entire background */
-  background-color: rgb(241, 241, 237); /* Adjusted background color */
+  background-color: rgb(241, 241, 237);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,7 +31,7 @@ html, body {
 #claimButton {
   width: 200px;
   height: 50px;
-  background-color: rgb(3, 54, 42); /* Adjusted button background color */
+  background-color: rgb(3, 54, 42); /* Adjusted button color */
   border: none;
   border-radius: 5px;
   margin-bottom: 10px;
