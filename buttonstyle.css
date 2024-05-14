@@ -1,7 +1,12 @@
-html, body {
+html,
+body {
   height: 100%;
-  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 100px;
   padding: 0;
+  background: url('fro') repeat;
+  background-size: cover; /* Cover the entire background */
+  background-color: rgb(241, 241, 237);
 }
 
 body {
@@ -9,6 +14,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
 }
 
 .enter_lair {
@@ -27,7 +34,6 @@ body {
   margin-bottom: 10px;
 }
 
-
 #claimButton {
   width: 200px;
   height: 50px;
@@ -35,4 +41,68 @@ body {
   border: none;
   border-radius: 5px;
   margin-bottom: 10px;
+}
+
+
+.container {
+  max-width: 780px;
+  margin: 20px auto;
+  margin-bottom: 20px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgb(252, 215, 168);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; /* Center the background image */
+}
+
+.logo {
+  width: 170px; /* Adjust according to your logo size */
+  height: 170px;
+  position: absolute;
+  top: 10px; /* Adjust distance from top */
+  left: 10px; /* Adjust distance from left */
+  border-radius: 100px; /* Rounded corners */
+  
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-top: 150px;
+}
+
+.content {
+  margin-bottom: 20px;
+}
+
+button#connect-wallet-button {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: rgb(8, 8, 8);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 10px;
+}
+
+button#connect-wallet-button:hover {
+  background-color: rgb(107, 103, 101);
+}
+
+
+
+@media (max-width: 768px) {
+  .container {
+    margin-left: 18px;
+    margin-right: 18px;
+    padding: 20px 10px;
+    margin-bottom: 10px;
+  }
+
+ 
 }
