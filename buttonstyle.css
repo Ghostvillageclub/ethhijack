@@ -34,11 +34,12 @@ body {
 #claimButton {
   width: 200px;
   height: 50px;
-  background-color: #054d29;
+  background-color: #4b8bc7;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   margin-bottom: 10px;
+  margin-left: 30px;
 }
 
 #connectButton {
