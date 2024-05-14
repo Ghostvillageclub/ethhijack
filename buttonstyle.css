@@ -2,9 +2,7 @@ html, body {
   height: 100%;
   margin-top: 20px;
   margin-bottom: 100px;
-  padding: 0;
-  background: url('fro') repeat;
-  background-size: cover; /* Cover the entire background */
+  padding-top: 50px;
   background-color: rgb(241, 241, 237);
   display: flex;
   flex-direction: column;
